@@ -87,7 +87,7 @@ function App() {
     <ConfirmationProvider>
       <NotificationProvider>
         <CartProvider>
-          <Router basename="/MiniEcommerceWebsite">
+          <Router>
             <AppContent />
           </Router>
         </CartProvider>
