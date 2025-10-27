@@ -19,13 +19,11 @@ import Checkout from "./pages/Checkout";
 import OrderConfirmation from "./pages/OrderConfirmation";
 import { getCurrentUser } from "./services/authService";
 
-// Protected Route Component
 const ProtectedRoute = ({ children }) => {
   const user = getCurrentUser();
   return user ? children : <Navigate to="/login" />;
 };
 
-// Component to handle header visibility
 const AppContent = () => {
   const location = useLocation();
   const showHeader = location.pathname !== "/login" && location.pathname !== "/register";
@@ -87,7 +85,7 @@ function App() {
     <ConfirmationProvider>
       <NotificationProvider>
         <CartProvider>
-          <Router basename="/">
+          <Router> 
             <AppContent />
           </Router>
         </CartProvider>
