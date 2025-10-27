@@ -87,7 +87,7 @@ function App() {
     <ConfirmationProvider>
       <NotificationProvider>
         <CartProvider>
-          <Router>
+          <Router basename="/">
             <AppContent />
           </Router>
         </CartProvider>
