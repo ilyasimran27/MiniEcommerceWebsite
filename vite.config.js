@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/MiniEcommerceWebsite/', // This is correct
+  base: '/',  // Change back to root for Firebase
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
