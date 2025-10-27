@@ -20,6 +20,6 @@ A modern React e-commerce website built with Vite, Tailwind CSS, and Firebase.
 - **Routing**: React Router DOM
 - **Icons**: Lucide React
 
-##
+## Deploy Link
 
-https://mini-ecommerce-d3d93.web.app/
+    https://mini-ecommerce-d3d93.web.app/
